@@ -1,0 +1,22 @@
+version: 2.0
+shards:
+  backtracer:
+    git: https://github.com/sija/backtracer.cr.git
+    version: 1.2.1
+
+  exception_page:
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.2.0
+
+  grip:
+    git: https://github.com/grip-framework/grip.git
+    version: 1.0.5
+
+  radix:
+    git: https://github.com/luislavena/radix.git
+    version: 0.4.1
+
+  swagger:
+    git: https://github.com/icyleaf/swagger.git
+    version: 0.3.0
+

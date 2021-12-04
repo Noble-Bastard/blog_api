@@ -1,0 +1,19 @@
+name: kemal
+version: 0.1.0
+
+authors:
+  - Drago <assabyn@gmail.com>
+
+targets:
+  kemal:
+    main: src/blog.cr
+
+crystal: 1.1.1
+
+license: MIT
+dependencies:
+  grip:
+    github: grip-framework/grip
+  jennifer:
+    github: imdrasil/jennifer.cr
+    version: "~> 0.11.1"
