@@ -6,11 +6,15 @@ shards:
 
   exception_page:
     git: https://github.com/crystal-loot/exception_page.git
-    version: 0.2.0
+    version: 0.2.1
 
   grip:
     git: https://github.com/grip-framework/grip.git
     version: 1.0.5
+
+  popcorn:
+    git: https://github.com/icyleaf/popcorn.git
+    version: 0.3.0
 
   radix:
     git: https://github.com/luislavena/radix.git
@@ -19,4 +23,8 @@ shards:
   swagger:
     git: https://github.com/icyleaf/swagger.git
     version: 0.3.0
+
+  totem:
+    git: https://github.com/icyleaf/totem.git
+    version: 0.7.0
 
