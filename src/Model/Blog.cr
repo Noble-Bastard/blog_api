@@ -37,10 +37,11 @@ class BlogModel
     return post
   end
 
-  def update_post_by_id(newParams : Post)
-  end
-
   def delete_post_by_id(id : Int32)
+    begin
+      File.delete("./config/#{id}.yaml")
+    rescue e
+      puts "Fatal error config file: #{e.message}"
+    end
   end
 end
-
