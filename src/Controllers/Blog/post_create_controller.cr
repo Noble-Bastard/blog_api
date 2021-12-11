@@ -1,5 +1,5 @@
 require "grip"
-
+require "../../Model/blog_model"
 class BlogCreateController  < Grip::Controllers::Http
 
       def index(context : Context) : Context

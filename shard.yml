@@ -16,3 +16,5 @@ dependencies:
     github: grip-framework/grip
   totem:
     github: icyleaf/totem
+  auto_json:
+    github: kostya/auto_json

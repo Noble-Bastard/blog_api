@@ -1,5 +1,13 @@
 version: 2.0
 shards:
+  auto_constructor:
+    git: https://github.com/kostya/auto_constructor.git
+    version: 0.2
+
+  auto_json:
+    git: https://github.com/kostya/auto_json.git
+    version: 0.2
+
   backtracer:
     git: https://github.com/sija/backtracer.cr.git
     version: 1.2.1
