@@ -9,6 +9,11 @@ end
 
 class BlogModel
   def get_post_list
+    Dir.children("./config/").each do |x|
+      x = x.split(".yaml")[0].to_i
+      post = get_post_by_id(x)
+      yield post
+    end
   end
 
   def create_post(post : Post)
