@@ -8,7 +8,7 @@ class Application < Grip::Application
       get "/read/:id", BlogIdController, as: :index
       get "/create", BlogCreateController, as: :index
       get "/update", BlogUpdateController, as: :index
-      get "/delete", BlogDeleteController, as: :index
+      get "/delete/:id", BlogDeleteController, as: :index
     end
   end
 end
