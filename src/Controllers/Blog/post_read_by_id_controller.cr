@@ -15,7 +15,7 @@ class BlogIdController < Grip::Controllers::Http
     }
     context
       .put_status(200)
-      .put_resp_header("Access-Control-Allow-Origin", "http://localhost:3000")
+      .put_resp_header("Access-Control-Allow-Origin", "http://assabyn.xyz")
       .json(posts)
       .halt
   end

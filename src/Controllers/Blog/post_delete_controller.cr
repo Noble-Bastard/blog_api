@@ -10,7 +10,7 @@ class BlogDeleteController < Grip::Controllers::Http
     context
       .put_status(200)
       .json({"status": "ok"})
-      .put_resp_header("Access-Control-Allow-Origin", "http://localhost:3000")
+      .put_resp_header("Access-Control-Allow-Origin", "http://assabyn.xyz")
       .halt
   end
 end
